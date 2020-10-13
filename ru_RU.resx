@@ -121,10 +121,10 @@
     <value>0.0.0.5</value>
   </data>
   <data name="Initialization" xml:space="preserve">
-    <value>Инициализация сервера Interstellar Rift Extended v{0} ...</value>
+    <value>Инициализация Interstellar Rift Extended v{0} ...</value>
   </data>
   <data name="IRNotFound" xml:space="preserve">
-    <value>IRSE: файл IR.EXE не найден.
+    <value>IRSE: приложение IR.EXE не найдено.
 Убедитесь, что IRSE.exe находится в одной папке с файлом IR.exe.
 Нажмите ENTER, для того чтобы закрыть окно.</value>
   </data>
@@ -138,16 +138,16 @@
     <value>Останавливаю сервер...</value>
   </data>
   <data name="UseDevVersion" xml:space="preserve">
-    <value>IRSE: (Аргумент: -usedevversion установлен) IRSE будет использовать тестовые версии</value>
+    <value>IRSE: IRSE будет загружать и использовать тестовые версии (установлен аргумент: -usedevversion) </value>
   </data>
   <data name="NoUpdate" xml:space="preserve">
-    <value>IRSE: (Аргумент: -noupdate установлен либо включен в настройках IRSE ) авто-обновление IRSE выключено.</value>
+    <value>IRSE: Авто-обновление IRSE ВЫКЛЮЧЕНО (установлен аргумент: -noupdate, либо выключено в настройках IRSE )</value>
   </data>
   <data name="NoUpdateIR" xml:space="preserve">
-    <value>IRSE: (Аргумент: -noupdateir установлен) Авто-обновление серверных файлы игры отключено.</value>
+    <value>IRSE: Авто-обновление серверных файлов игры ВЫКЛЮЧЕНО. (установлен аргумент: -noupdateir) </value>
   </data>
   <data name="AutoStart" xml:space="preserve">
-    <value>IRSE: Аргумент: -autostart установлен либо в настройках IRSE включена функция автостарта сервера.</value>
+    <value>IRSE: Автозапуск сервера ВКЛЮЧЕН (установлен аргумент: -autostart либо включено в настройках IRSE)</value>
   </data>
   <data name="NonInteractive" xml:space="preserve">
     <value>Поддержка вывода графики не обнаружена - Графический пользовательский интерфейс отключен</value>
@@ -156,7 +156,7 @@
     <value>Графический интерфейс отключен</value>
   </data>
   <data name="CommandNoExist" xml:space="preserve">
-    <value>IRSE: такой команды не существует..</value>
+    <value>IRSE: Не существующая команда!</value>
   </data>
   <data name="CommandException" xml:space="preserve">
     <value>Ошибка при выполнении команды...</value>
@@ -165,7 +165,7 @@
     <value>Неверный синтаксис! Используйте / help для вывода списка всех доступных команд...</value>
   </data>
   <data name="ForGameVersion" xml:space="preserve">
-    <value>Для игры версии: </value>
+    <value>Поддерживаемая версия игры: </value>
   </data>
   <data name="ThisGameVersion" xml:space="preserve">
     <value>Установленная версия игры: </value>
@@ -177,31 +177,31 @@
     <value>Обнаружено обновление Interstellar Rift! Обновите сервер!</value>
   </data>
   <data name="IRNewer" xml:space="preserve">
-    <value>Установленная версия Interstellar Rifts новее, чем поддерживаемые IRSE! Обновите IRSE!</value>
+    <value>Установленная версия Interstellar Rifts новее, чем поддерживаемая версия IRSE! Обновите IRSE!</value>
   </data>
   <data name="LoadingGUI" xml:space="preserve">
     <value>Загружаю Графический Интерфейс...</value>
   </data>
   <data name="HelpCommand" xml:space="preserve">
-    <value>Это страница Подсказки ;)</value>
+    <value>Список доступных служебных команд:</value>
   </data>
   <data name="OpenGUICommand" xml:space="preserve">
-    <value>opengui - открыть графический интерфейс, если он был закрыт.</value>
+    <value>opengui - Открыть графический интерфейс программы</value>
   </data>
   <data name="StartCommand" xml:space="preserve">
-    <value>start - Запустить сервер, если он еще не запущен.</value>
+    <value>start - Запустить сервер</value>
   </data>
   <data name="StopCommand" xml:space="preserve">
-    <value>stop - Остановить сервер, если он запущен.</value>
+    <value>stop - Остановить сервер</value>
   </data>
   <data name="RestartCommand" xml:space="preserve">
-    <value>restart - Перезапустить IRSE, если в настройках установлен автозапуск, то сервер игры так же будет запущен автоматически.</value>
+    <value>restart - Перезапустить IRSE (если в настройках установлен автозапуск, то сервер игры так же будет запущен автоматически.)</value>
   </data>
   <data name="CheckUpdateCommand" xml:space="preserve">
-    <value>checkupdate - Проверить наличие обновлений IRSE. Выдает запрос на обновление. </value>
+    <value>checkupdate - Проверить наличие обновлений IRSE. </value>
   </data>
   <data name="ForceUpdateCommand" xml:space="preserve">
-    <value>forceupdate - Обновить IRSE: не выдает запросов на обновление.</value>
+    <value>forceupdate - Обновить IRSE вручную и без запросов.</value>
   </data>
   <data name="FailedInitPlugin" xml:space="preserve">
     <value>Ошибка инициализации плагина {0}. Exception: {1}</value>

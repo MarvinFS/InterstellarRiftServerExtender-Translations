@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="version" xml:space="preserve">
-    <value>0.0.0.5</value>
+    <value>0.0.0.6</value>
   </data>
   <data name="Initialization" xml:space="preserve">
     <value>Interstellar Rift Extended Server v{0} Initializing....</value>
@@ -153,16 +153,13 @@ Press enter to close.</value>
     <value>Non interactive environment detected, GUI disabled</value>
   </data>
   <data name="GUIDisabled" xml:space="preserve">
-    <value>GUI Disabled</value>
+    <value>IRSE: GUI Disabled</value>
   </data>
   <data name="CommandNoExist" xml:space="preserve">
     <value>IRSE: command Doesn't Exist.</value>
   </data>
   <data name="CommandException" xml:space="preserve">
-    <value>Loading GUI...</value>
-  </data>
-  <data name="BadSyntax" xml:space="preserve">
-    <value>Bad syntax ! Use / help to watch all valid commands</value>
+    <value>IRSE: Command exception!</value>
   </data>
   <data name="ForGameVersion" xml:space="preserve">
     <value>For Game Version: </value>
@@ -226,5 +223,41 @@ Press enter to close.</value>
   </data>
   <data name="ShutdownPlugin" xml:space="preserve">
     <value>Shutting down Plugin {0}</value>
+  </data>
+  <data name="LaunchingServer" xml:space="preserve">
+    <value>IRSE: Launching Server...</value>
+  </data>
+  <data name="NoInitWrapper" xml:space="preserve">
+    <value>IRSE: Could not initialize the wrapper. This is a fatal error, please report the exception to the github issues. Shutting Down...</value>
+  </data>
+  <data name="WaitingForServer" xml:space="preserve">
+    <value>IRSE: Waiting for server</value>
+  </data>
+  <data name="GameBaseCode" xml:space="preserve">
+    <value>IR.exe base game code was probably changed, this is a fatal error, please report the error below to the github issues.</value>
+  </data>
+  <data name="SteamCMDNoExist" xml:space="preserve">
+    <value>SteamCMD does not exist, downloading!</value>
+  </data>
+  <data name="Unpacking" xml:space="preserve">
+    <value>Done! Unpacking and starting SteamCMD to install Interstellar Rift Dedicated Server</value>
+  </data>
+  <data name="ManualModeUnpack" xml:space="preserve">
+    <value>Could not download or unpack SteamCMD. Going into manual mode. Please install Interstellar Rift and copy IRSE there!</value>
+  </data>
+  <data name="CheckingIR" xml:space="preserve">
+    <value>Checking/Updating IR</value>
+  </data>
+  <data name="ManualModeStart" xml:space="preserve">
+    <value>Could not start SteamCMD. Going into manual mode. Please run SteamCMD manually to install or update the dedicated server!</value>
+  </data>
+  <data name="NotInstalled" xml:space="preserve">
+    <value>Interstellar Rift has NOT been installed!</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Interstellar Rift has been successfully installed or updated!</value>
+  </data>
+  <data name="NoGameVersion" xml:space="preserve">
+    <value>Could not get game version from {0}</value>
   </data>
 </root>

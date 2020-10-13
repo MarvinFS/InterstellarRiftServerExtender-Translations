@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="version" xml:space="preserve">
+    <value>0.0.0.5</value>
+  </data>
+  <data name="Initialization" xml:space="preserve">
+    <value>Инициализация сервера Interstellar Rift Extended v{0} ...</value>
+  </data>
+  <data name="IRNotFound" xml:space="preserve">
+    <value>IRSE: файл IR.EXE не найден.
+Убедитесь, что IRSE.exe находится в одной папке с файлом IR.exe.
+Нажмите ENTER, для того чтобы закрыть окно.</value>
+  </data>
+  <data name="GameConsoleEnabled" xml:space="preserve">
+    <value>IRSE: Консольные команды включены.</value>
+  </data>
+  <data name="ServerIsAlreadyRunning" xml:space="preserve">
+    <value>Сервер уже запущен!</value>
+  </data>
+  <data name="StopRunningServers" xml:space="preserve">
+    <value>Останавливаю сервер...</value>
+  </data>
+  <data name="UseDevVersion" xml:space="preserve">
+    <value>IRSE: (Аргумент: -usedevversion установлен) IRSE будет использовать тестовые версии</value>
+  </data>
+  <data name="NoUpdate" xml:space="preserve">
+    <value>IRSE: (Аргумент: -noupdate установлен либо включен в настройках IRSE ) авто-обновление IRSE выключено.</value>
+  </data>
+  <data name="NoUpdateIR" xml:space="preserve">
+    <value>IRSE: (Аргумент: -noupdateir установлен) Авто-обновление серверных файлы игры отключено.</value>
+  </data>
+  <data name="AutoStart" xml:space="preserve">
+    <value>IRSE: Аргумент: -autostart установлен либо в настройках IRSE включена функция автостарта сервера.</value>
+  </data>
+  <data name="NonInteractive" xml:space="preserve">
+    <value>Поддержка вывода графики не обнаружена - Графический пользовательский интерфейс отключен</value>
+  </data>
+  <data name="GUIDisabled" xml:space="preserve">
+    <value>Графический интерфейс отключен</value>
+  </data>
+  <data name="CommandNoExist" xml:space="preserve">
+    <value>IRSE: такой команды не существует..</value>
+  </data>
+  <data name="CommandException" xml:space="preserve">
+    <value>Ошибка при выполнении команды...</value>
+  </data>
+  <data name="BadSyntax" xml:space="preserve">
+    <value>Неверный синтаксис! Используйте / help для вывода списка всех доступных команд...</value>
+  </data>
+  <data name="ForGameVersion" xml:space="preserve">
+    <value>Для игры версии: </value>
+  </data>
+  <data name="ThisGameVersion" xml:space="preserve">
+    <value>Установленная версия игры: </value>
+  </data>
+  <data name="OnlineGameVersion" xml:space="preserve">
+    <value>Версия игры в Стиме: </value>
+  </data>
+  <data name="NewIRVersion" xml:space="preserve">
+    <value>Обнаружено обновление Interstellar Rift! Обновите сервер!</value>
+  </data>
+  <data name="IRNewer" xml:space="preserve">
+    <value>Установленная версия Interstellar Rifts новее, чем поддерживаемые IRSE! Обновите IRSE!</value>
+  </data>
+  <data name="LoadingGUI" xml:space="preserve">
+    <value>Загружаю Графический Интерфейс...</value>
+  </data>
+  <data name="HelpCommand" xml:space="preserve">
+    <value>Это страница Подсказки ;)</value>
+  </data>
+  <data name="OpenGUICommand" xml:space="preserve">
+    <value>opengui - открыть графический интерфейс, если он был закрыт.</value>
+  </data>
+  <data name="StartCommand" xml:space="preserve">
+    <value>start - Запустить сервер, если он еще не запущен.</value>
+  </data>
+  <data name="StopCommand" xml:space="preserve">
+    <value>stop - Остановить сервер, если он запущен.</value>
+  </data>
+  <data name="RestartCommand" xml:space="preserve">
+    <value>restart - Перезапустить IRSE, если в настройках установлен автозапуск, то сервер игры так же будет запущен автоматически.</value>
+  </data>
+  <data name="CheckUpdateCommand" xml:space="preserve">
+    <value>checkupdate - Проверить наличие обновлений IRSE. Выдает запрос на обновление. </value>
+  </data>
+  <data name="ForceUpdateCommand" xml:space="preserve">
+    <value>forceupdate - Обновить IRSE: не выдает запросов на обновление.</value>
+  </data>
+  <data name="FailedInitPlugin" xml:space="preserve">
+    <value>Ошибка инициализации плагина {0}. Exception: {1}</value>
+  </data>
+  <data name="FailedLoadPlugin" xml:space="preserve">
+    <value>Ошибка загрузки плагина {0}. Exception: {1}</value>
+  </data>
+  <data name="FailedLoadAssembly" xml:space="preserve">
+    <value>Ошибка загрузки сборки : {0} : {1}</value>
+  </data>
+  <data name="FailedShutdownPlugin" xml:space="preserve">
+    <value>Ошибка остановки плагина: {0}. Exception: {1}</value>
+  </data>
+  <data name="InitializationPlugin" xml:space="preserve">
+    <value>Ошибка загрузки плагина {0}. Не найден класс public: parameterless constructor for {0}</value>
+  </data>
+  <data name="InitializingPlugin" xml:space="preserve">
+    <value>Инициализация плагина : {0}</value>
+  </data>
+  <data name="LoadingPlugin" xml:space="preserve">
+    <value>Загрузка плагина : {0}</value>
+  </data>
+  <data name="ShutdownPlugin" xml:space="preserve">
+    <value>Остановка плагина {0}</value>
+  </data>
+</root>

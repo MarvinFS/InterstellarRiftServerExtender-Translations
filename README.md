@@ -24,12 +24,11 @@ If you would like to contribute a translation, its very easy!
   
  ![](https://ul.rootronics.org/zCn3)
 
-  When you're done, go ahead and make a folder in the repository using your locale way to write the language type. And you will want to include 
+  When you're done, go ahead and Commit your changes, remember to add the files to the commit, then Push!
   
-    ExtenderGui.[localename].resx
-    IRSE.[localename].resx
-
-  Into the folder, and make a pull request! Don't forget to periodically pull the repository and check your translation if it needs to be updated!
+  Then make pull request as this repository being the base!
+  
+  Don't forget to periodically pull the repository and check your translation if it needs to be updated!
   
   The translations will be in the next update to IRSE!
    

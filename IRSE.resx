@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="version" xml:space="preserve">
-    <value>0.0.0.6</value>
+    <value>0.0.0.7</value>
   </data>
   <data name="Initialization" xml:space="preserve">
     <value>Interstellar Rift Extended Server v{0} Initializing....</value>
@@ -259,5 +259,104 @@ Press enter to close.</value>
   </data>
   <data name="NoGameVersion" xml:space="preserve">
     <value>Could not get game version from {0}</value>
+  </data>
+  <data name="AreYouSure" xml:space="preserve">
+    <value>Are you sure?</value>
+  </data>
+  <data name="ServerOnlineChat" xml:space="preserve">
+    <value>Server Online, Ready For Chat.</value>
+  </data>
+  <data name="ServerConfigSaved" xml:space="preserve">
+    <value>Server Config Saved.</value>
+  </data>
+  <data name="IRSEConfigSaved" xml:space="preserve">
+    <value>IRSE Config Saved.</value>
+  </data>
+  <data name="LooseServerChanges" xml:space="preserve">
+    <value>You want to loose the Server Config changes?</value>
+  </data>
+  <data name="ReloadedServerConfig" xml:space="preserve">
+    <value>Reloaded the config from appdata server.json</value>
+  </data>
+  <data name="LooseExtenderConfig" xml:space="preserve">
+    <value>You want to loose all changes to the Extender Config?</value>
+  </data>
+  <data name="ReloadExtenderConfig" xml:space="preserve">
+    <value>You wish to reload the Extender Config?</value>
+  </data>
+  <data name="ReloadedExtenderConfig" xml:space="preserve">
+    <value>Reloaded extender config.</value>
+  </data>
+  <data name="ReloadServerConfig" xml:space="preserve">
+    <value>Are you sure you want to reload the settings from the server.json?</value>
+  </data>
+  <data name="ServerSettings" xml:space="preserve">
+    <value>Server Settings</value>
+  </data>
+  <data name="ServerStopped" xml:space="preserve">
+    <value>The Server Is Already Stopped</value>
+  </data>
+  <data name="KickPlayers" xml:space="preserve">
+    <value>You wish to Kick the selected Player(s)?</value>
+  </data>
+  <data name="BanPlayers" xml:space="preserve">
+    <value>You wish to Ban the selected Player(s)?</value>
+  </data>
+  <data name="ForgetPlayers" xml:space="preserve">
+    <value>You wish to Forget the selected Player(s)?
+
+ This will kick the selected players, then force them to pick a faction the next time they login.</value>
+  </data>
+  <data name="KillPlayers" xml:space="preserve">
+    <value>You wish to Kill the selected Player(s)?</value>
+  </data>
+  <data name="ToggleAdmin" xml:space="preserve">
+    <value>You wish to Toggle Admin on the selected Player(s)?</value>
+  </data>
+  <data name="GuiCheckingUpdates" xml:space="preserve">
+    <value>Checking for updates...</value>
+  </data>
+  <data name="GuiRunningLatest" xml:space="preserve">
+    <value>You are running the latest version!</value>
+  </data>
+  <data name="GuiNewVersion" xml:space="preserve">
+    <value>A new version has been detected: {0}
+
+ Release Information:
+Release Name: {1}
+Download Count: {2}
+Release Published {3}
+Release Description:
+
+{4}
+
+Would you like to update now?</value>
+  </data>
+  <data name="GuiIRSEUpdater" xml:space="preserve">
+    <value>IRSE Updater</value>
+  </data>
+  <data name="GuiCanceledUpdate" xml:space="preserve">
+    <value>The Update has been canceled.</value>
+  </data>
+  <data name="GuiUpdateApply" xml:space="preserve">
+    <value>The Update is being applied..</value>
+  </data>
+  <data name="GuiDialogMustRestart" xml:space="preserve">
+    <value>You must restart before the update can be completed!
+
+Would you like to restart now?
+Note: The server was saved after downloading this release.</value>
+  </data>
+  <data name="GuiExtenderUpdater" xml:space="preserve">
+    <value>Extender Updater</value>
+  </data>
+  <data name="GuiNeedsRestart" xml:space="preserve">
+    <value>IRSE needs to be restarted before you can use the new features!</value>
+  </data>
+  <data name="RestartIRSE" xml:space="preserve">
+    <value>Restart IRSE?</value>
+  </data>
+  <data name="Close IRSE" xml:space="preserve">
+    <value>Close IRSE?</value>
   </data>
 </root>

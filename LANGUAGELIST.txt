@@ -1,0 +1,6 @@
+: Please keep this list updated it's used directly for the language selector on IRSE.
+: Only needed for the files prefixed with IRSE.
+: LanguageName=FileName
+: If you need to comment, start with : like these!
+English=IRSE.resx
+Russian=IRSE.ru_RU.resx
